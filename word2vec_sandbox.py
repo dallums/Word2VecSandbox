@@ -39,7 +39,7 @@ def buildModel(sentences, minCount, _window):
 
 
 if __name__ == '__main__':
-    path = "DigitalHealthData.xlsx"
+    path = "*your path here*"
     dataFrame = getData(path)
     textColumn = 'Description'
     IDField = 'Name'
